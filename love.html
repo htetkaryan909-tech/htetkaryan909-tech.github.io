@@ -21,20 +21,18 @@
             color: #333;
         }
         .container {
-            background: rgba(255, 255, 255, 0.92);
+            background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
             border-radius: 24px;
-            padding: 30px 20px;
+            padding: 35px 20px;
             max-width: 420px;
             width: 100%;
             text-align: center;
-            box-shadow: 0 15px 35px rgba(255, 105, 180, 0.2);
-            border: 2px solid rgba(255, 255, 255, 0.6);
-            position: relative;
-            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(255, 105, 180, 0.25);
+            border: 2px solid rgba(255, 255, 255, 0.8);
         }
         .heart-badge {
-            font-size: 40px;
+            font-size: 45px;
             animation: pulse 1.2s infinite ease-in-out;
             margin-bottom: 10px;
         }
@@ -45,13 +43,13 @@
             margin-bottom: 15px;
         }
         .img-frame {
-            width: 180px;
-            height: 180px;
+            width: 200px;
+            height: 200px;
             margin: 0 auto 20px auto;
             border-radius: 50%;
-            border: 5px solid #ff85a2;
-            padding: 5px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            border: 4px solid #ff85a2;
+            padding: 4px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.12);
             overflow: hidden;
             background-color: #fff;
         }
@@ -64,7 +62,7 @@
         .message {
             font-size: 15px;
             line-height: 1.8;
-            color: #555;
+            color: #4a4a4a;
             margin-bottom: 25px;
             padding: 0 10px;
         }
@@ -73,7 +71,7 @@
             color: white;
             border: none;
             padding: 12px 28px;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: bold;
             border-radius: 30px;
             cursor: pointer;
@@ -86,12 +84,14 @@
         .surprise-box {
             display: none;
             margin-top: 20px;
-            padding: 15px;
+            padding: 18px;
             background: #ffe6ea;
-            border-radius: 15px;
+            border-radius: 16px;
             color: #c72c41;
             font-size: 14px;
+            line-height: 1.7;
             animation: fadeIn 0.5s ease-in;
+            border: 1px dashed #ff85a2;
         }
         @keyframes pulse {
             0% { transform: scale(1); }
@@ -110,18 +110,20 @@
         <div class="heart-badge">💖</div>
         <h1>Happy National Girlfriend Day!</h1>
         
+        <!-- ညီ့ရဲ့ ဓာတ်ပုံ -->
         <div class="img-frame">
-            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=500&q=80" alt="Her Photo">
+            <img src="IMG_20260111_182649.jpg" alt="Our Photo">
         </div>
 
         <div class="message">
-            ငါ့ဘဝထဲကို ရောက်လာပေးပြီး အမြဲတမ်း ပျော်ရွှင်မှုတွေ ပေးစွမ်းနိုင်လို့ ကျေးဇူးအများကြီးတင်ပါတယ်နော်။ မင်းဟာ ငါ့ရဲ့ ကမ္ဘာငယ်လေးပါပဲ! 💕
+            ငါ့ဘဝထဲကို ရောက်လာပေးပြီး အမြဲတမ်း ပျော်ရွှင်မှုတွေ၊ အပြုံးတွေ ပေးစွမ်းနိုင်လို့ ကျေးဇူးအများကြီးတင်ပါတယ်နော်။ မင်းနဲ့တွေ့မှ ဘဝက ပိုပြီး အဓိပ္ပာယ်ရှိလာတာပါ။ 🌸✨
         </div>
 
-        <button class="btn-love" onclick="showSurprise()">ဒီမှာ နှိပ်ကြည့်ပါဦး 🎁</button>
+        <button class="btn-love" onclick="showSurprise()">ဒီမှာ ခလုတ်လေး နှိပ်ကြည့်ပါဦး 🎁</button>
 
         <div class="surprise-box" id="surprise">
-            ✨ မင်းလေးကို အမြဲတမ်း ပျော်ရွှင်စေချင်ပါတယ်။ Happy Girlfriend Day ပါချစ်သူ! 🌹✨
+            🌹 **မင်းလေးအတွက် စာတိုလေး** 🌹<br><br>
+            ဘာမှမလိုချင်ပါဘူး၊ အမြဲတမ်း ပျော်ပျော်ရွှင်ရွှင်နဲ့ ကျန်းကျန်းမာမာရှိနေပေးရင်ကို ကျေနပ်ပါပြီ။ အမြဲတမ်း ဘေးနားမှာရှိနေပေးမယ်နော်။ Happy Girlfriend Day ပါ ချစ်သူ! 💖
         </div>
     </div>
 
