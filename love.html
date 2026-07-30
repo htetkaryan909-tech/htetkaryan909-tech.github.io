@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy National Girlfriend Day 💖</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Pyidaungsu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #a1c4fd 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #333;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.92);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            padding: 30px 20px;
+            max-width: 420px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 15px 35px rgba(255, 105, 180, 0.2);
+            border: 2px solid rgba(255, 255, 255, 0.6);
+            position: relative;
+            overflow: hidden;
+        }
+        .heart-badge {
+            font-size: 40px;
+            animation: pulse 1.2s infinite ease-in-out;
+            margin-bottom: 10px;
+        }
+        h1 {
+            color: #d63384;
+            font-size: 22px;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+        .img-frame {
+            width: 180px;
+            height: 180px;
+            margin: 0 auto 20px auto;
+            border-radius: 50%;
+            border: 5px solid #ff85a2;
+            padding: 5px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            overflow: hidden;
+            background-color: #fff;
+        }
+        .img-frame img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+        .message {
+            font-size: 15px;
+            line-height: 1.8;
+            color: #555;
+            margin-bottom: 25px;
+            padding: 0 10px;
+        }
+        .btn-love {
+            background: linear-gradient(45deg, #ff4b2b, #ff416c);
+            color: white;
+            border: none;
+            padding: 12px 28px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 5px 15px rgba(255, 65, 108, 0.4);
+            transition: transform 0.2s;
+        }
+        .btn-love:active {
+            transform: scale(0.95);
+        }
+        .surprise-box {
+            display: none;
+            margin-top: 20px;
+            padding: 15px;
+            background: #ffe6ea;
+            border-radius: 15px;
+            color: #c72c41;
+            font-size: 14px;
+            animation: fadeIn 0.5s ease-in;
+        }
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.15); }
+            100% { transform: scale(1); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="heart-badge">💖</div>
+        <h1>Happy National Girlfriend Day!</h1>
+        
+        <div class="img-frame">
+            <img src="https://images.unsplash.com/photo-1518199266791-5375a83190b7?auto=format&fit=crop&w=500&q=80" alt="Her Photo">
+        </div>
+
+        <div class="message">
+            ငါ့ဘဝထဲကို ရောက်လာပေးပြီး အမြဲတမ်း ပျော်ရွှင်မှုတွေ ပေးစွမ်းနိုင်လို့ ကျေးဇူးအများကြီးတင်ပါတယ်နော်။ မင်းဟာ ငါ့ရဲ့ ကမ္ဘာငယ်လေးပါပဲ! 💕
+        </div>
+
+        <button class="btn-love" onclick="showSurprise()">ဒီမှာ နှိပ်ကြည့်ပါဦး 🎁</button>
+
+        <div class="surprise-box" id="surprise">
+            ✨ မင်းလေးကို အမြဲတမ်း ပျော်ရွှင်စေချင်ပါတယ်။ Happy Girlfriend Day ပါချစ်သူ! 🌹✨
+        </div>
+    </div>
+
+    <script>
+        function showSurprise() {
+            var box = document.getElementById('surprise');
+            if (box.style.display === 'block') {
+                box.style.display = 'none';
+            } else {
+                box.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
