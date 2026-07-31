@@ -1,0 +1,20 @@
+{
+  "name": "TheBear&Marsha",
+  "short_name": "TheBear&Marsha",
+  "icons": [
+    {
+      "src": "myphoto.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "myphoto.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ff6b81",
+  "theme_color": "#ff6b81"
+}
